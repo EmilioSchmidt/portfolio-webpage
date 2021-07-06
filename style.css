@@ -1,16 +1,20 @@
-* {
+*
+/*sets padding and border*/
+ {
   box-sizing: border-box;
 }
-
+/* aligns the text in head, sets bg color of header black, sets text color white, sets font to TMR*/
 header{
   text-align: center;
   background-color: black;
   color: white;
   font-family: "Times New Roman";
 }
+/* the paragraph inside the letter font size will be 20*/
 header p{
   font-size: 20px;
 }
+/* the body's background color, margin, and padding will be affected by this code*/
 body{
   background-color: lightblue;
   margin: auto;
@@ -20,37 +24,52 @@ body{
 h2 {
   text-align: center;
   font-family: Arial, sans-serif;
-  color: darkred;
+  color: #800000;
 }
 
 h3 {
   text-align: center;
   font-family: Arial, sans-serif;
-  color: darkred;
+  color: #800000;
 }
 
 main p{
   font-size: 20px;
 }
+/*sets horizontal ruler to black and 20px*/
 hr{
   color: black;
   size: 20px;
 
 }
-
+/* sets all list items font-size to 20px*/
 li {
   font-size: 20px;
 }
-
+/* customizes my image with auto margins a block display and a 50% width*/
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
+/* this code affects the footer at the bottom of page black bg, centered white text and a height of 50px*/
 footer {
   background-color: black;
   text-align: center;
   color: white;
+  height: 50px 
+}
+/* this code affects my links*/
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+a:link:hover {
+  color: green;
+}
+a:visited:hover {
+  color: red;
 }
